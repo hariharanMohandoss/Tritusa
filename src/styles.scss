@@ -1,0 +1,220 @@
+/* You can add global styles to this file, and also import other style files */
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main-banner-item {
+    position: relative;
+    z-index: 1;
+    background-image: url(assets/background-image/4146691.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 630px;
+    background-attachment: fixed;
+
+    .container-fluid {
+        padding-right: 0;
+    }
+    // &.item-two {
+    //     background-image: url();
+    //     height: 800px;
+    //     background-attachment: unset;
+
+    //     .main-banner-image {
+    //         top: 0;
+
+    //         img {
+    //             animation: border-transform-default 10s linear infinite alternate forwards;
+    //             border-radius: 50%;
+    //         }
+    //     }
+    // }
+    // &.item-three {
+    //     background-image: url();
+    //     height: 800px;
+    //     background-attachment: unset;
+
+    //     .main-banner-image {
+    //         top: 0;
+
+    //         img {
+    //             animation: moveLeftBounce 3s linear infinite;
+    //         }
+    //     }
+    // }
+    // &.item-four {
+    //     background-image: url();
+    //     height: 700px;
+
+    //     .main-banner-image {
+    //         top: 0;
+
+    //         img {
+    //             animation: border-transform-default 10s linear infinite alternate forwards;
+    //             border-radius: 100%;
+    //         }
+    //     }
+    // }
+}
+.main-banner-content {
+    max-width: 620px;
+    margin-left: auto;
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 16px;
+        position: relative;
+        z-index: 1;
+    } 
+    p {
+        margin-bottom: 0;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    }
+}
+.main-banner-image {
+    position: relative;
+    top: 40px;
+}
+.main-banner {
+    overflow: hidden;
+    position: relative;
+}
+.main-banner-shape {
+    .shape-1 {
+        position: absolute;
+        left: 10%;
+        top: 16%;
+        z-index: 1;
+        animation: animationFramesOne 20s infinite linear;
+        max-width: 50px;
+    }
+    .shape-2 {
+        position: absolute;
+        left: 55%;
+        top: 30%;
+        z-index: 1;
+        max-width: 50px;
+
+        img {
+            animation-name: rotateMe;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+    .shape-3 {
+        position: absolute;
+        left: 35%;
+        bottom: 18%;
+        z-index: 1;
+        max-width: 50px;
+
+        img {
+            animation-name: rotateMe;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+    .shape-4 {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        z-index: 1;
+        max-width: 50px;
+
+        img {
+            animation-name: rotateMe;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+    .shape-5 {
+        position: absolute;
+        left: 5%;
+        bottom: 15%;
+        z-index: 1;
+        max-width: 45px;
+        animation: animationFramesOne 20s infinite linear;
+    }
+    .shape-6 {
+        position: absolute;
+        left: 35%;
+        bottom: 5%;
+        z-index: 1;
+        max-width: 50px;
+
+        img {
+            animation-name: rotateMe;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+    .shape-7 {
+        position: absolute;
+        left: 45%;
+        top: 30%;
+        z-index: 1;
+        max-width: 30px;
+        animation: animationFramesOne 20s infinite linear;
+    }
+    .shape-8 {
+        position: absolute;
+        right: 20%;
+        bottom: 15%;
+        z-index: 1;
+        max-width: 30px;
+        animation: animationFramesOne 20s infinite linear;
+    }
+    .shape-9 {
+        position: absolute;
+        left: -20px;
+        top: -85px;
+        z-index: 1;
+        animation: moveLeftBounce 3s linear infinite;
+        max-width: 300px;
+    }
+    .shape-10 {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        z-index: 1;
+        animation: rotate3d 4s linear infinite;
+    }
+    .shape-11 {
+        position: absolute;
+        left: 5%;
+        bottom: 15%;
+        z-index: 1;
+        max-width: 60px;
+        animation: moveScale 3s linear infinite;
+    }
+    .shape-12 {
+        position: absolute;
+        bottom: 15%;
+        left: 30%;
+        z-index: 1;
+        animation: moveBounce 5s linear infinite;
+    }
+    .shape-13 {
+        position: absolute;
+        bottom: 0;
+        right: -5%;
+        z-index: 1;
+        animation: moveBounce 5s linear infinite;
+        max-width: 300px;
+    }
+    .shape-14 {
+        position: absolute;
+        top: 15%;
+        left: 48%;
+        z-index: 1;
+        animation: moveBounce 5s linear infinite;
+    }
+}
